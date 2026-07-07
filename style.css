@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  background: #f5efe6;
+  font-family: Georgia, serif;
+  color: #9c7b52;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.tarjeta{
+    width:100%;
+    max-width:430px;
+    min-height:100vh;
+    margin:0 auto;
+    padding:75px 25px 40px;
+    position:relative;
+    box-sizing:border-box;
+    background:#fffdf8;
+}
+
+
+.miel-superior {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 430px;
+  max-width: 100%;
+  height: auto;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.hello {
+  font-family: cursive;
+  font-size: 42px;
+  margin: 0px 0 0;
+}
+
+h1 {
+  font-size: 90px;
+  letter-spacing: 6px;
+  margin: 0;
+  color: #b58d68;
+}
+
+.pooh {
+  width: 150px;
+  margin-top: -10px;
+}
+
+.texto {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 38px;
+  margin: 5px 0;
+  color: #9b7a3f;
+}
+
+.subtitulo {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.mensaje {
+  font-size: 19px;
+  line-height: 1.4;
+  margin: 45px 0;
+}
+
+.datos {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-bottom: 35px;
+}
+
+.datos div {
+  border-left: 2px solid #c7a47a;
+  padding-left: 15px;
+}
+
+button {
+  background: #9c7b52;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 17px;
+}
+
+.final {
+  font-family: cursive;
+  font-size: 34px;
+  margin-top: 35px;
+}
+
+.decor {
+  position: absolute;
+  z-index: 1;
+}
+
+.decor1 { width: 55px; top: 150px; right: 25px; }
+.decor2 { width: 70px; top: 360px; left: 10px; }
+.decor3 { width: 70px; top: 250px; right: 35px; }
+.decor4 { width: 80px; bottom: 30px; right: 15px; }
+.decor5 { width: 100px; bottom: 20px; left: 15px; }
+
+.tarjeta > *:not(.decor) {
+  position: relative;
+  z-index: 2;
+}
+
+.confirmacion {
+  margin-top: 50px;
+  background: #fff8ea;
+  border: 2px dashed #d8b36b;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  padding: 15px 28px;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    max-width: 100%;
+    padding-top: 115px;
+  }
+
+  .miel-superior {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 75px;
+  }
+}
+.regalos{
+    margin-top:45px;
+    padding:25px;
+    background:#fff8ea;
+    border-radius:25px;
+    border:2px dashed #d8b36b;
+}
+
+.regalos h2{
+    color:#9b7a3f;
+    margin-bottom:10px;
+}
+
+.texto-regalo{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.opciones-regalo{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:160px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+.nina{
+    background:#ffeef6;
+    border:2px solid #ffc7dc;
+}
+
+.nino{
+    background:#eef6ff;
+    border:2px solid #b9dcff;
+}
+
+.card h3{
+    margin-top:0;
+}
+
+.card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-align:left;
+}
+
+.card li{
+    margin:10px 0;
+}
