@@ -203,3 +203,70 @@ button {
 .card li{
     margin:10px 0;
 }
+.firma-final{
+    margin-top:60px;
+    padding:40px 25px;
+    background:#fffaf1;
+    border-radius:30px;
+    border:2px dashed #d8b36b;
+    text-align:center;
+}
+
+.abeja-firma{
+    width:45px;
+    margin-bottom:10px;
+}
+
+.firma-final h3{
+    color:#9c7b52;
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.agradecimiento{
+    color:#6e6e6e;
+    line-height:1.6;
+    margin-bottom:35px;
+}
+
+.firmas{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.firma{
+    width:160px;
+}
+
+.nombre-firma{
+    font-family:'Great Vibes', cursive;
+    font-size:38px;
+    color:#9b6d35;
+    margin-bottom:8px;
+}
+
+.linea{
+    border-bottom:2px solid #d8b36b;
+    margin-bottom:8px;
+}
+
+.firma span{
+    color:#8a8a8a;
+    font-size:15px;
+}
+
+.ampersand{
+    font-size:40px;
+    color:#c8a34d;
+    margin-bottom:30px;
+}
+
+.despedida{
+    margin-top:35px;
+    font-family:'Great Vibes', cursive;
+    font-size:30px;
+    color:#9b6d35;
+}
